@@ -1,4 +1,4 @@
-function conditionalStatements(input){
+function areaOfFigures(input){
 
     let figure = input[0];
 
@@ -25,6 +25,6 @@ function conditionalStatements(input){
         console.log(area.toFixed(3));
     }    
    }
-conditionalStatements(["triangle",
+   areaOfFigures(["triangle",
 "4.5",
 "20"]);
